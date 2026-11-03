@@ -1,0 +1,5 @@
+{
+  "name": "Shiftswap prototype",
+  "description": "Lets hospital nurses trade shifts with colleagues without calling the ward office, and lets ward managers approve swaps in one place. Read AGENTS.md before making changes.",
+  "requestFramePermissions": []
+}

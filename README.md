@@ -1,11 +1,33 @@
-<div align="center">
+# Shiftswap prototype
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Lets hospital nurses trade shifts with colleagues without calling the ward office, and lets ward managers approve swaps in one place.
 
-  <h1>Built with AI Studio</h2>
+- **Purpose:** Validate with 5 nurses and 2 ward managers (St. Mary's pilot) that a nurse can offer a shift and get it covered in under 1 minute, and a manager can review and approve a swap without opening another tool.
+- **Fidelity:** Lo-fi
+- **Devices:** Nurse: Mobile-only (390px, phone frame on desktop); Manager: Desktop (1440px)
+- **Live prototype:** Add the Vercel URL after the first deploy.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## How to review
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Open Prototype Home at `/`. It lists every user type, flow, and screen.
+Select `Open flow` to start a journey. Use the bar at the top of each screen to move between steps.
 
-</div>
+## Where things are
+
+| Path | Purpose |
+|---|---|
+| `project/BRIEF.md` | The confirmed brief: the product source of truth |
+| `src/prototype/registry.ts` | Every user type, flow, screen, and route |
+| `src/screens/` | One file per screen |
+| `AGENTS.md`, `guidelines/` | Rules for the AI builder |
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+Built from the LCA prototype template.

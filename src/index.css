@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './styles/shadcn.css';
+@import './styles/base.css';
+
+/* Fidelity theme: exactly ONE of these three imports is active. Project setup sets it from project/BRIEF.md
+   (guidelines/01-intake-questions.md, "After the go"). Lo-fi is the default. */
+@import './styles/lofi.css';
+/* @import './styles/lofi-plus.css'; */
+/* @import './styles/memorisely.css'; */
+
+/* Prototype tooling theme (LowCode Agency brand). Keep this import; never use lca-* classes in screens. */
+@import './prototype/tooling.css';
+
+/* Class names in the docs are examples, not product UI: do not compile them. */
+@source not '../guidelines';
+@source not '../project';
